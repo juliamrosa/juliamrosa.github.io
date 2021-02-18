@@ -1,0 +1,204 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+body {
+    font-size: 2rem;
+    background-color: rgb(242, 244, 246);
+}
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+.header-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: black;
+    text-align: center;
+}
+.footer-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: black;
+    text-align: center;
+}
+.hero-container-resume {
+    background: url(images/windmill.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.hero-container-about-me {
+    background: url(images/sunset.JPG);
+    background-position: center;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.resume {
+    border-bottom: 1px solid black;
+}
+.resume-text {
+    line-height: 1.2;
+}
+.row {
+    display: flex;
+}
+.col-2,
+.col-3,
+.col-4,
+.col-10,
+.col-12 {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.col-2 {
+    flex-basis: 16.6666666%;
+}
+.col-3 {
+    flex-basis: 25%;
+    margin-right: 20px;
+}
+.col-4 {
+    flex-basis: 33.33333333%;
+}
+.col-9 {
+    flex-basis: 75%;
+    margin-left: 20px;
+}
+.col-10 {
+    flex-basis: 83.3333333%;
+}
+.col-12 {
+    flex-basis: 100%;
+}
+h1 {
+    font-size: 6rem;
+    font-weight: 800;
+}
+h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+h3 {
+    font-size: 3rem;
+}
+.p-education {
+    font-weight: bold;
+}
+.col-12 h3 {
+    margin-top: 70px;
+}
+ul li {
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+}
+a:hover {
+    color: rgb(214, 101, 120);
+}
+.profile-img {
+    width: 400px;
+    height: 400px; 
+    object-fit: cover;
+    border-radius: 50%;   
+}
+.resume-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    opacity: 0.5;
+}
+.carousel-inner i.left-handle, .carousel-inner i.right-handle {
+    position: absolute;
+    padding: 10px;
+    background-color: rgb(7, 11, 15);
+    color: #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 25px;
+  }
+  .carousel-inner {
+    position: relative;
+  }
+  .carousel-inner i.left-handle {
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+  }
+  .carousel-inner i.right-handle {
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%);
+  }
+  .carousel h2 {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  #carousel-items {
+      text-align: center;
+  }
+  #carousel-items img {
+      max-height: 550px;
+      max-width: auto;
+      overflow: hidden;
+      margin: 0 auto;
+  }
+  /* img {
+      width: 100%;
+  } */
+@media (max-width: 992px) {
+    .row {
+        display: block;
+    }
+    ul li {
+        display: block;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+    .container {
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    a {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    /* img {
+        width: 300px;
+        height: 300px; 
+    }     */
+    h1 {
+        font-size: 5rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    .col-3 {
+        margin: none;
+    }
+    #carousel-items img {
+        max-height: 550px;
+        max-width: 300px;
+    }
+  }
