@@ -189,6 +189,11 @@ a:hover {
     .container {
         text-align: center;
     }
+    .profile-img {
+        width: 300px;
+        height: 300px;
+    }
+
 }
 @media (max-width: 768px) {
     a {
