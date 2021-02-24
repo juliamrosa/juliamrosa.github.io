@@ -37,7 +37,6 @@ body {
 }
 .col-3 {
     flex-basis: 25%;
-    /* margin-right: 20px; */
 }
 .col-4 {
     flex-basis: 33.33333333%;
@@ -63,10 +62,10 @@ audio:hover {
     background-color: rgb(214, 101, 120);
     border-radius: 10px;
 }
-.audio-control {
-    border: none;
+/* .audio-control {
+    border: none; */
     /* background-color:rgb(214, 101, 120); */
-}
+/* } */
 .header-container {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -154,10 +153,10 @@ h3 {
 .text-size {
     font-size: 3.5rem;
 }
-.text-color {
+/* .text-color {
     color: rgb(214, 101, 120);
     font-weight: 600;
-}
+} */
 .p-education {
     font-weight: bold;
 }
@@ -175,6 +174,13 @@ a {
     color: white;
     font-size: 3rem;
     font-weight: 600;
+}
+.span-link {
+    color: rgb(214, 101, 120);
+    font-weight: 800;
+}
+.span-link:hover {
+    color: black;
 }
 a:hover {
     color: rgb(214, 101, 120);
@@ -276,7 +282,6 @@ a:hover {
     .index {
         margin-top: 40px;
     }    
-
 }
 @media (max-width: 768px) {
     a {
