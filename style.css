@@ -60,6 +60,12 @@ audio {
 }
 audio:hover {
     transform: scale(1.05);
+    background-color: rgb(214, 101, 120);
+    border-radius: 10px;
+}
+.audio-control {
+    border: none;
+    /* background-color:rgb(214, 101, 120); */
 }
 .header-container {
     padding-top: 40px;
