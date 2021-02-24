@@ -32,20 +32,35 @@ body {
     background-color: black;
     text-align: center;
 }
-.hero-container-resume {
-    background: url(images/windmill.jpg);
-    background-position: center;
-    background-size: cover;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    text-align: center;
+.hero-container-resume, .hero-container-about-me {
+    position: relative;
+    height: 225px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.hero-container-about-me {
-    background: url(images/sunset.JPG);
-    background-position: center;
+.hero-container-resume::before, .hero-container-about-me::before {
+    content: "";
     background-size: cover;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.50;
+}
+.hero-container-resume::before {
+    background-image: url(images/windmill.jpg);
+    background-position: center;
+}
+.hero-container-about-me::before {
+    background: url(images/sunset.JPG);
+    background-position: 40%;
+
+}
+.hero-h1 {
+    position: relative;
     text-align: center;
 }
 .resume {
@@ -104,7 +119,6 @@ h2 {
 i {
     font-size: 75px;
     color: rgb(214, 101, 120);
-
 }
 .carousel-h2 {
     text-align: center;
