@@ -20,6 +20,41 @@ body {
     padding-bottom: 50px;
     box-sizing: border-box;
 }
+.row {
+    display: flex;
+}
+.col-2,
+.col-3,
+.col-4,
+.col-6,
+.col-10,
+.col-12 {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.col-2 {
+    flex-basis: 16.6666666%;
+}
+.col-3 {
+    flex-basis: 25%;
+    /* margin-right: 20px; */
+}
+.col-4 {
+    flex-basis: 33.33333333%;
+}
+.col-6 {
+    flex-basis: 50%;
+}
+.col-9 {
+    flex-basis: 75%;
+    margin-left: 20px;
+}
+.col-10 {
+    flex-basis: 83.3333333%;
+}
+.col-12 {
+    flex-basis: 100%;
+}
 .header-container {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -69,41 +104,7 @@ body {
 .resume-text {
     line-height: 1.2;
 }
-.row {
-    display: flex;
-}
-.col-2,
-.col-3,
-.col-4,
-.col-6,
-.col-10,
-.col-12 {
-    flex-grow: 1;
-    flex-shrink: 1;
-}
-.col-2 {
-    flex-basis: 16.6666666%;
-}
-.col-3 {
-    flex-basis: 25%;
-    /* margin-right: 20px; */
-}
-.col-4 {
-    flex-basis: 33.33333333%;
-}
-.col-6 {
-    flex-basis: 50%;
-}
-.col-9 {
-    flex-basis: 75%;
-    margin-left: 20px;
-}
-.col-10 {
-    flex-basis: 83.3333333%;
-}
-.col-12 {
-    flex-basis: 100%;
-}
+
 h1 {
     font-size: 6rem;
     font-weight: 800;
@@ -274,8 +275,15 @@ a:hover {
     .col-3 {
         margin: none;
     }
+    .header-container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }    
     #carousel-items img {
         max-height: 550px;
         max-width: 300px;
     }
+    .hero-container-resume, .hero-container-about-me {
+        height: 150px;
+    }    
   }
