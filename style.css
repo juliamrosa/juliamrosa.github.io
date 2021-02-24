@@ -55,6 +55,12 @@ body {
 .col-12 {
     flex-basis: 100%;
 }
+audio {
+    transition: all 0.5s linear;
+}
+audio:hover {
+    transform: scale(1.05);
+}
 .header-container {
     padding-top: 40px;
     padding-bottom: 40px;
