@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    var aboutMeNames = [ "On top of a mountain in South Korea", "Singing at the Red Lion in Manhattan", "Babson Alumni Event", "Santorini, Greece", "Sky Diving on Long Island", "Sunset in Southampton", "Oil Paintings", "Oil Paintings"];
-    var aboutMeImages = [ "southkorea.jpg", "red-lion.jpg", "babson.jpg", "greece.jpg", "sky-diving.jpg", "beach-sunset.png", "girl-1.png", "girl-2.png"];
+    var aboutMeNames = [ "On top of a mountain in South Korea", "Singing at the Red Lion in Manhattan", "Santorini, Greece", "Babson Alumni Event", "Oil Paintings", "Oil Paintings", "Sky Diving on Long Island", "Sunset in Southampton"];
+    var aboutMeImages = [ "southkorea.jpg", "red-lion.jpg", "greece.jpg", "babson.jpg", "girl-1.png", "girl-2.png", "sky-diving.jpg", "beach-sunset.png"];
 
     var currentIndex = 0;
 
